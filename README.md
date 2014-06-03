@@ -34,7 +34,7 @@ test1
 3. marker
 
   codeblocks
-  write sode in here
+  write code in here
   
   
 
