@@ -67,18 +67,20 @@
         *EXTEND file systems if space needed?   yes
 ##安裝perzl org tools
 ###安裝gcc(include bash)
-    rpm -ivh bash-4.2-12.aix5.1.ppc.rpm \
-            ettext-0.10.40-8.aix5.2.ppc.rpm \
-            info-5.1-1.aix5.1.ppc.rpm \    
-            gcc-4.8.2-1.aix7.1.ppc.rpm \
-            gcc-cpp-4.8.2-1.aix7.1.ppc.rpm \
-            gmp-5.0.5-1.aix5.1.ppc.rpm \
-            libgcc-4.8.2-1.aix7.1.ppc.rpm \
-            libiconv-1.14-2.aix5.1.ppc.rpm \
-            libmpc-1.0.1-2.aix5.1.ppc.rpm \
-            libstdc++-4.8.2-1.aix7.1.ppc.rpm \
-            libstdc++-devel-4.8.2-1.aix7.1.ppc.rpm \
-            mpfr-3.1.2-1.aix5.1.ppc.rpm
+```shell
+rpm -ivh bash-4.2-12.aix5.1.ppc.rpm \
+        ettext-0.10.40-8.aix5.2.ppc.rpm \
+        info-5.1-1.aix5.1.ppc.rpm \    
+        gcc-4.8.2-1.aix7.1.ppc.rpm \
+        gcc-cpp-4.8.2-1.aix7.1.ppc.rpm \
+        gmp-5.0.5-1.aix5.1.ppc.rpm \
+        libgcc-4.8.2-1.aix7.1.ppc.rpm \
+        libiconv-1.14-2.aix5.1.ppc.rpm \
+        libmpc-1.0.1-2.aix5.1.ppc.rpm \
+        libstdc++-4.8.2-1.aix7.1.ppc.rpm \
+        libstdc++-devel-4.8.2-1.aix7.1.ppc.rpm \
+        mpfr-3.1.2-1.aix5.1.ppc.rpm
+```
 ###安裝tar
     cd ../tar-1.27.1-1/
     rpm -ivh tar-1.27.1-1.aix5.1.ppc.rpm
